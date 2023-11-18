@@ -69,7 +69,21 @@ body {
 
 .screen {
   background-color: #eee;
-  height: 80px;
+  height: 100px;
+  color: #176b87;
+  padding: 20px 10px;
+}
+
+.screen p {
+  text-align: right;
+}
+.display-actions {
+  border: none;
+  margin: 0 auto;
+  width: 100%;
+  border-radius: 7px;
+  box-shadow: 0 0 12px 2px rgba(0, 0, 0, 0.05);
+  padding-left: 10px;
   color: #176b87;
 }
 
@@ -79,6 +93,8 @@ body {
   display: grid;
   grid-template-columns: 1fr 62px;
   font-size: 24px;
+  overflow: hidden;
+  border-radius: 7px;
 }
 
 .btn {
